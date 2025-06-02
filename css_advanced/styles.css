@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header {
+  padding: 30px 100px 0px 100px;
+}
+.hero-section {
+  background: radial-gradient(
+      ellipse at bottom,
+
+      hsla(218, 19%, 20%, 0) 100%,
+      hsla(214, 71%, 9%, 1) 100%
+    ),
+    url(/images/Object.png);
+  color: #fff;
+  /* margin-bottom: 30px; */
+  min-height: 900px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+  gap: 40px;
+}
+li a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+.first-section {
+  margin-top: 170px;
+  text-align: center;
+}
+.first-section h1 {
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  font-weight: 700;
+}
+.first-span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  /* margin-left: 80px; */
+}
+button {
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: hsla(274, 100%, 72%, 1);
+  color: #fff;
+  box-shadow: hsla(0, 0%, 0%, 0.5);
+  border: none;
+  outline: none;
+  /* margin-left: 70px; */
+}
+.first-div {
+  margin-top: 170px;
+}
+.first-div h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.learn {
+  color: hsla(274, 100%, 72%, 1);
+}
+.img-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 60px;
+
+  text-align: center;
+  line-height: 1.5;
+}
+.img2 {
+  height: 100px;
+  width: 100px;
+}
+.divider {
+  height: 50px;
+  width: 100%;
+  background-color: hsla(214, 71%, 9%, 1);
+}
+.second-section {
+  background-color: hsla(274, 100%, 72%, 1);
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  color: white;
+}
+.person {
+  margin-top: 30px;
+}
+.p1 {
+  font-style: italic;
+  margin-top: 7px;
+}
+.third-section {
+  padding: 60px 100px 80px 100px;
+  line-height: 1.5;
+}
+.third-section h2 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.span1 {
+  color: hsla(274, 100%, 72%, 1);
+}
+.video-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.star {
+  display: flex;
+  color: hsla(274, 100%, 72%, 1);
+  margin-top: 10px;
+}
+.star-time {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.min {
+  color: hsla(274, 100%, 72%, 1);
+}
+.img3 {
+  width: 30px;
+  height: 30px;
+}
+.text-img {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 30px;
+}
+.color {
+  color: hsla(274, 100%, 72%, 1);
+}
+.grey {
+  color: hsla(0, 0%, 85%, 1);
+}
+
+.play {
+  position: relative;
+  display: inline-block;
+}
+
+.video-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.txt {
+  color: hsla(214, 71%, 9%, 0.5);
+  font-size: 14px;
+}
+.fourth-section {
+  padding: 60px 100px 60px 100px;
+  background-color: hsla(214, 71%, 9%, 1);
+  line-height: 1.5;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+  text-align: center;
+}
+.smilediv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.smilediv p {
+  margin-top: 15px;
+}
+.fifth-section {
+  padding: 60px 100px 60px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  flex-direction: column;
+}
+.fifth-section h2 {
+  font-family: Source Sans Pro;
+}
+.faq-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+.faq1,
+.faq2 {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  color: hsla(214, 71%, 9%, 0.5);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.footer-section {
+  padding: 60px 120px 60px 120px;
+  background-color: hsla(214, 71%, 9%, 1);
+  color: #fff;
+}
+.footer-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-section p {
+  margin-top: 50px;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 1);
+  font-size: 12px;
+}
+.link {
+  display: flex;
+  gap: 20px;
+}
