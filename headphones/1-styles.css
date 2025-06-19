@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.main-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 .headphone-container {
   background-image: url(./images/headphones_hero_1.jpg);
@@ -58,4 +64,37 @@ li a {
   color: white;
   border: none;
   font-weight: 700;
+}
+
+.lorem {
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.details-section {
+  padding: 100px 150px;
+  text-align: center;
+}
+.p-text {
+  font-weight: 700;
+}
+.details-section p {
+  margin-top: 30px;
+}
+.img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.holberton_school-icon-ic_music,
+.holberton_school-icon-ic_sound,
+.holberton_school-icon-ic_video,
+.holberton_school-icon-ic_hearing {
+  color: #ff6565;
+  font-size: 48px;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  text-align: center;
 }
